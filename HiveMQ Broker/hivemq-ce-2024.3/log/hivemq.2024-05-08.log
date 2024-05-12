@@ -1,0 +1,19 @@
+2024-05-08 20:12:43,639 INFO  - Log Configuration was overridden by /home/lett/hivemq-ce-2024.3/conf/logback.xml
+2024-05-08 20:12:43,608 INFO  - Starting HiveMQ Community Edition Server
+2024-05-08 20:12:43,608 INFO  - HiveMQ version: 2024.3
+2024-05-08 20:12:43,608 INFO  - HiveMQ home directory: /home/lett/hivemq-ce-2024.3
+2024-05-08 20:12:43,739 INFO  - This HiveMQ ID is 2ynvN
+2024-05-08 20:12:44,446 INFO  - Starting with file persistence mode.
+2024-05-08 20:12:44,715 INFO  - Starting HiveMQ extension system.
+2024-05-08 20:12:44,735 WARN  - 
+################################################################################################################
+# This HiveMQ deployment is not secure! You are lacking Authentication and Authorization.                      #
+# Right now any MQTT client can connect to the broker with a full set of permissions.                          #
+# For production usage, add an appropriate security extension and remove the hivemq-allow-all extension.       #
+# You can download security extensions from the HiveMQ Marketplace (https://www.hivemq.com/extensions/).       #
+################################################################################################################
+2024-05-08 20:12:44,736 INFO  - Extension "Allow All Extension" version 1.0.0 started successfully.
+2024-05-08 20:12:44,753 INFO  - Starting TCP listener on address fd00::1 and port 1883
+2024-05-08 20:12:44,769 INFO  - Started TCP Listener on address fd00::1 and on port 1883.
+2024-05-08 20:12:44,769 INFO  - Started HiveMQ in 1162ms
+2024-05-08 21:34:00,043 INFO  - Shutting down HiveMQ. Please wait, this could take a while...
