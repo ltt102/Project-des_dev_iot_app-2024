@@ -512,7 +512,10 @@ publish(void)
 #endif
     seq_nr_value++;
     buf_ptr = app_buffer;
-    double temperature = ((double)rand() / (double)RAND_MAX) * 100.0;
+    double minVal = 0;
+    double maxVal = 100.0;
+    double temperature = minVal + ((double)rand() / (double)RAND_MAX) * (maxVal - minVal);
+
 
     len = snprintf(buf_ptr, remaining,
                    "{"

@@ -513,9 +513,10 @@ publish(void)
 #endif
     seq_nr_value++;
     buf_ptr = app_buffer;
-    double lower_bound = 40.0;
-    double upper_bound = 100.0;
-    double humidity = lower_bound + ((double)rand() / (double)RAND_MAX) * (upper_bound - lower_bound);
+    double minVal = 40.0;
+    double maxVal = 100.0;
+    double humidity = minVal + ((double)rand() / (double)RAND_MAX) * (maxVal - minVal);
+
 
 
     len = snprintf(buf_ptr, remaining,
@@ -524,7 +525,7 @@ publish(void)
                    "\"value\":%.14f,"
                    "\"unit\":\"%%\","
 //                   "\"timestamp\":%lu,"
-                   "\"description\":\"Temperature report\""
+                   "\"description\":\"Humidity report\""
                    "}",
                    humidity);
 //    humidity, clock_seconds());
