@@ -1,1 +1,1 @@
-## Hello! Select branch "master1" to connect the project!
+## Hello! Please select branch "master1" to connect the project!
